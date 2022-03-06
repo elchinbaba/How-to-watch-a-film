@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    padding: 84px;
+    margin-bottom: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#main .header-container{
+    height: 93px;
+    width: 905px;
+    margin-right: 260px;
+    margin-bottom: 95px;
+}
+
+#main .header-container .header{
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#main .cards-container{
+    width: 1271px;
+    height: 1070px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main .cards-container .card-container{
+    position: relative;
+    background-color: #fff;
+    width: 399px;
+    height: 328px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-bottom: 41px;
+    margin-right: 37px;
+}
+
+#main .cards-container .card-container:nth-child(3), #main .cards-container .card-container:nth-child(6){
+    margin-right: 0;
+}
+
+#main .cards-container .card-container .card{
+    width: 399px;
+    height: 160px;
+}
+
+#main .cards-container .card-container .card-1{
+    background: url('/assets/images/Rectangle1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main .cards-container .card-container .card-2{
+    background: url('/assets/images/Rectangle2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main .cards-container .card-container .card-3{
+    background: url('/assets/images/Rectangle3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main .cards-container .card-container .card-4{
+    background: url('/assets/images/Rectangle4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main .cards-container .card-container .card-5{
+    background: url('/assets/images/Rectangle5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main .cards-container .card-container .card-6{
+    background: url('/assets/images/Rectangle6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main .cards-container .card-container .card-7{
+    background: url('/assets/images/Rectangle7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main .cards-container .card-container .card-8{
+    background: url('/assets/images/Rectangle8.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main .cards-container .card-container .card-header{
+    position: absolute;
+    height: 39px;
+    width: 365px;
+    left: 20px;
+    top: 171px;
+    font-size: 30px;
+}
+
+#main .cards-container .card-container .card-text{
+    width: 365px;
+    height: 63px;
+    position: absolute;
+    left: 19px;
+    top: 242px;
+    font-weight: 400;
+    font-size: 25px;
+    bottom: 23px;
+}
+
+@media (min-width:992px) and (max-width: 1280px) {
+    #main{
+        margin-bottom: 52.6px;
+    }
+    #main .header-container{
+        height: 53.86px;
+        width: 524.14px;
+        margin-right: 145px;
+        margin-bottom: 55.02px;
+    }
+    #main .header-container .header{
+        font-size: 32px;
+        line-height: 32.44px;
+    }
+    #main .cards-container{
+        width: 736.12px;
+        height: 619.71px;
+    }
+    #main .cards-container .card-container{
+        width: 231px;
+        height: 190px;
+        border-radius: 17px;
+        margin-bottom: 26px;
+        margin-right: 21.43px;
+    }
+    #main .cards-container .card-container .card{
+        width: 231.09px;
+        height: 92.67px;
+    }
+
+    #main .cards-container .card-container:nth-child(3), #main .cards-container .card-container:nth-child(6){
+        margin-right: 0;
+    }
+    
+    #main .cards-container .card-container .card-header{
+        height: 22.5px;
+        width: 211px;
+        left: 11.5px;
+        top: 99px;
+        font-size: 17px;
+    }
+    #main .cards-container .card-container .card-text{
+        width: 211.4px;
+        height: 36.49px;
+        left: 11px;
+        bottom: unset;
+        top: 140.16px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width:320px) and (max-width: 991px) {
+    #main{
+        margin-bottom: 47.16px;
+    }
+    #main .header-container{
+        height: 43.33px;
+        width: 421.7px;
+        margin-right: -120px;
+        margin-bottom: 35.66px;
+    }
+    #main .header-container .header{
+        font-size: 26px;
+        line-height: 26.36px;
+    }
+    #main .cards-container{
+        width: 186.92px;
+        height: 1391.84px;
+    }
+    #main .cards-container .card-container{
+        height: 152.83px;
+        width: 185.92px;
+        border-radius: 17px;
+        margin-bottom: 24px;
+        margin-right: 0;
+    }
+    #main .cards-container .card-container .card{
+        width: 185.92px;
+        height: 74.56px;
+    }
+
+    #main .cards-container .card-container .card-header{
+        width: 170.08px;
+        height: 18.17px;
+        left: 9.32px;
+        top: 79.68px;
+        font-size: 14px;
+    }
+    #main .cards-container .card-container .card-text{
+        width: 170.08px;
+        height: 29.36px;
+        left: 8.85px;
+        bottom: unset;
+        top: 112.77px;
+        font-size: 12px;
+    }
+}
