@@ -62,7 +62,7 @@
 }
 
 #main .cards-container .card-container .card-1{
-    background: url('assets/images/Rectangle1.png');
+    background: url('/assets/images/Rectangle1.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -74,13 +74,13 @@
 }
 
 #main .cards-container .card-container .card-3{
-    background: url('assets/images/Rectangle3.png');
+    background: url('/assets/images/Rectangle3.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #main .cards-container .card-container .card-4{
-    background: url('assets/images/Rectangle4.png');
+    background: url('/assets/images/Rectangle4.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -92,19 +92,19 @@
 }
 
 #main .cards-container .card-container .card-6{
-    background: url('assets/images/Rectangle6.png');
+    background: url('/assets/images/Rectangle6.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #main .cards-container .card-container .card-7{
-    background: url('assets/images/Rectangle7.png');
+    background: url('/assets/images/Rectangle7.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #main .cards-container .card-container .card-8{
-    background: url('assets/images/Rectangle8.png');
+    background: url('/assets/images/Rectangle8.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
