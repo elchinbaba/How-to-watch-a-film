@@ -109,17 +109,9 @@
     width: 304px;
     height: 356px;
     position: absolute;
-    top: 30.4%;
+    top: 28%;
     right: 17%;
     z-index: 1;
-}
-
-.header-images img:nth-child(2) {
-    width: 274px;
-    height: 41px;
-    position: absolute;
-    top: 630px;
-    right: 17%;
 }
 
 .header-poem {
