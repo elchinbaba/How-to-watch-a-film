@@ -1196,7 +1196,7 @@
         font-size: 26px;
     }
     .format-text {
-        width: 580px;
+        width: 257px;
         margin-top: 30px;
         flex-direction: column;
         margin-bottom: 20px;
@@ -1204,10 +1204,15 @@
         margin-left: 10%;
     }
     .format-part1 {
+        width: 257px;
         margin-bottom: 30px;
     }
     .format-part2 {
+        width: 257px;
         margin-bottom: 30px;
+    }
+    .format-part3{
+        width: 257px;
     }
     .part1 {
         width: 86.88px;
@@ -1236,11 +1241,12 @@
     }
     #main .header-container {
         height: 43.33px;
-        width: 421.7px;
+        width: 320.7px;
         margin-right: -120px;
         margin-bottom: 35.66px;
     }
     #main .header-container .header {
+        width: 320px;
         font-size: 26px;
         line-height: 26.36px;
     }
