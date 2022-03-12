@@ -946,6 +946,7 @@
     }
     #content{
         height: 451px;
+        min-width: 0;
     }
     #footer>.footer-first>.footer-first-container {
         height: 451px;
