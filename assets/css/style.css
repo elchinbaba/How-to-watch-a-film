@@ -916,6 +916,9 @@
         top: 140.16px;
         font-size: 14px;
     }
+    .content{
+        height: 451.75px;
+    }
     .content-header{
         font-size: 32px;
     }
@@ -1270,6 +1273,14 @@
     }
     .content{
         min-width: 320px;
+        height: 423px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0;
+    }
+    .content-card{
+        width: 81%;
     }
     .content-header{
         font-size: 26px;
