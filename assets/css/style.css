@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap');
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -110,8 +109,8 @@
     width: 304px;
     height: 356px;
     position: absolute;
-    top: 28%;
-    right: 17%;
+    top: 300px;
+    right: 326px;
     z-index: 1;
 }
 
@@ -192,13 +191,14 @@
     position: relative;
 }
 
-.intro-img-ellips {
+
+/* .intro-img-ellips {
     width: 366px;
     height: 59px;
     position: absolute;
     top: 330px;
     right: 180px;
-}
+} */
 
 .intro-footer {
     position: relative;
@@ -497,13 +497,15 @@
     bottom: 23px;
 }
 
-.content-row{
+.content-row {
     display: flex;
 }
-.content-pad{
+
+.content-pad {
     padding: 6px;
 }
-.content{
+
+.content {
     margin: auto;
     background: #EFEFEF;
     width: 100%;
@@ -511,35 +513,42 @@
     padding-left: 8%;
     padding-top: 4%;
 }
-.content-header{
+
+.content-header {
     line-height: 101.38%;
     font-size: 55px;
-    padding-bottom: 4% ;
+    padding-bottom: 4%;
 }
-.content-card-author{
+
+.content-card-author {
     align-items: center;
 }
-.content-card{
+
+.content-card {
     flex-direction: column;
     border-radius: 30px;
     width: 55%;
     box-shadow: 0 0 10px 10px rgb(141, 138, 138);
     padding-right: 6%;
 }
-.content-paragraph{
+
+.content-paragraph {
     padding-left: 6%;
     padding-top: 7%;
     padding-bottom: 2%;
     line-height: 150%;
     font-size: 20px;
 }
-.content-card-author{
+
+.content-card-author {
     padding-bottom: 7%;
 }
-.content-card-name{
+
+.content-card-name {
     font-size: 30px;
 }
-.content-card-bottom{
+
+.content-card-bottom {
     padding-left: 7%;
 }
 
@@ -916,25 +925,25 @@
         top: 140.16px;
         font-size: 14px;
     }
-    .content{
+    .content {
         height: 451.75px;
     }
-    .content-card{
+    .content-card {
         width: 55%;
     }
-    .content-header{
+    .content-header {
         font-size: 32px;
     }
-    .content-paragraph{
+    .content-paragraph {
         font-size: 12px;
     }
-    .content-card-name{
+    .content-card-name {
         font-size: 17px;
     }
-    .content-card-user-img{
+    .content-card-user-img {
         width: 110.04px;
     }
-    .content-card-icon-img{
+    .content-card-icon-img {
         width: 24px;
     }
     #footer>.footer-first>.footer-first-container {
@@ -1043,7 +1052,6 @@
         width: 15.64px;
         height: 10.43px;
     }
-
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
@@ -1097,14 +1105,8 @@
     .header-images img:first-child {
         width: 141.68px;
         height: 175.1px;
-        top: 250px;
-        left: 288px;
-    }
-    .header-images img:nth-child(2) {
-        width: 158.69px;
-        height: 23.75px;
-        top: 25.5%;
-        left: 280px;
+        top: 300px;
+        left: 150px;
     }
     .header-poem {
         width: 280.11px;
@@ -1138,8 +1140,8 @@
     .intro-img-big {
         width: 170.55px;
         height: 160.29px;
-        top: 250px;
-        right: 300px;
+        top: 107%;
+        left: 12%;
     }
     .intro-footer {
         margin-top: 80px;
@@ -1211,7 +1213,7 @@
         width: 257px;
         margin-bottom: 30px;
     }
-    .format-part3{
+    .format-part3 {
         width: 257px;
     }
     .part1 {
@@ -1280,7 +1282,7 @@
         top: 112.77px;
         font-size: 12px;
     }
-    .content{
+    .content {
         min-width: 320px;
         height: 423px;
         display: flex;
@@ -1288,22 +1290,22 @@
         justify-content: center;
         padding-top: 0;
     }
-    .content-card{
+    .content-card {
         width: 81%;
     }
-    .content-header{
+    .content-header {
         font-size: 26px;
     }
-    .content-paragraph{
+    .content-paragraph {
         font-size: 10px;
     }
-    .content-card-name{
+    .content-card-name {
         font-size: 14px;
     }
-    .content-card-user-img{
+    .content-card-user-img {
         width: 80px;
     }
-    .content-card-icon-img{
+    .content-card-icon-img {
         width: 20px;
     }
     #footer>.footer-first>.footer-first-container {
