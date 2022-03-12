@@ -1241,12 +1241,12 @@
     }
     #main .header-container {
         height: 43.33px;
-        width: 320.7px;
-        margin-right: -120px;
+        width: 340px;
+        margin-right: -30px;
         margin-bottom: 35.66px;
     }
     #main .header-container .header {
-        width: 320px;
+        width: 340px;
         font-size: 26px;
         line-height: 26.36px;
     }
