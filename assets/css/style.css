@@ -919,6 +919,9 @@
     .content{
         height: 451.75px;
     }
+    .content-card{
+        width: 55%;
+    }
     .content-header{
         font-size: 32px;
     }
